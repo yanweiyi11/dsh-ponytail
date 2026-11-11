@@ -48,7 +48,7 @@ dsh plugin --profile <profile> add github:yanweiyi11/dsh-ponytail
 
 规则与技能来自 [Ponytail](https://github.com/DietrichGebert/ponytail)。
 
-当前同步版本：**Ponytail v5.3.3**（2026-10-29 发布，上游提交 `7801d06`），同步日期 **2026-11-11**。
+当前同步版本：**Ponytail v5.3.3**（2026-10-29 发布，上游提交 `7801d06`）。
 
 要同步到某个上游提交：
 
