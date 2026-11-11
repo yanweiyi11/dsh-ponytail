@@ -44,6 +44,10 @@ dsh plugin --profile <profile> add github:yanweiyi11/dsh-ponytail
 - 不联网，不读取凭据，不写入用户文件；运行时只读自身随包的技能文件。
 - 规则以系统提示段落的形式注入，不改动宿主代码。
 
+## 来源与致谢
+
+本插件的规则与技能文本源自 [Ponytail](https://github.com/DietrichGebert/ponytail) 项目，按其 MIT 许可使用。许可证副本见 [LICENSES/ponytail-MIT.txt](LICENSES/ponytail-MIT.txt)。
+
 ## 许可
 
 MIT。第三方文本的许可见 [NOTICE](NOTICE) 与 [LICENSES/ponytail-MIT.txt](LICENSES/ponytail-MIT.txt)。
