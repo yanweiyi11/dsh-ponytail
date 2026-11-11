@@ -1,0 +1,52 @@
+{
+  "name": "dsh-ponytail",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Lazy senior dev mode for DeepSeek Harness: injects a minimal-code ruleset, adds review, audit, debt, gain and help skills, and switches lite/full/ultra per session.",
+  "license": "MIT",
+  "author": "yanweiyi11",
+  "homepage": "https://github.com/yanweiyi11/dsh-ponytail#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yanweiyi11/dsh-ponytail.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yanweiyi11/dsh-ponytail/issues"
+  },
+  "keywords": [
+    "deepseek",
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "ponytail",
+    "minimal-code",
+    "yagni",
+    "code-review"
+  ],
+  "exports": {
+    ".": "./index.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "lib.js",
+    "cordis.patch.yml",
+    "skills/**",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "LICENSE",
+    "NOTICE",
+    "LICENSES/**",
+    "test/**"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "icon": "./icon.svg"
+}

@@ -1,0 +1,5 @@
+# 把自维护的 ponytail 插件插入 profile 的层栈。
+- insert:
+    - id: dsh-ponytail
+      name: dsh-ponytail
+      config: {}
