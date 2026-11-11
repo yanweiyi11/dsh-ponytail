@@ -41,6 +41,7 @@
     "LICENSE",
     "NOTICE",
     "LICENSES/**",
+    "scripts/**",
     "test/**"
   ],
   "dsh": {
